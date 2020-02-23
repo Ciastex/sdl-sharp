@@ -1,8 +1,11 @@
-﻿namespace SdlSharp.Sound
+﻿using System;
+
+namespace SdlSharp.Sound
 {
     /// <summary>
     /// The formats supported by the mixer.
     /// </summary>
+    [Flags]
     public enum MixerFormats
     {
         /// <summary>
